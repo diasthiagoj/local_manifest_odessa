@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="Thiago" fetch="https://github.com/diasthiagoj"/>
+  <remote name="Thiago" fetch="https://github.com/diasthiago11"/>
   <remote name="BarryBlackCat" fetch="https://github.com/BarryBlackCat"/>
   <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
   
 <!--Trees-->
   <project path="device/motorola/odessa"
            name="android_device_motorola_odessa"
-           remote="diasthiagoj"
-           revision="thirteen" />
+           remote="Thiago"
+           revision="afterlife" />
            
   <project path="device/motorola/sm6150-common"
            name="android_device_motorola_sm6150-common"
-           remote="diasthiagoj"
+           remote="diasthiago11"
            revision="thirteen" />
            
   <project path="kernel/motorola/sm6150"
            name="android_kernel_motorola_sm6150"
-           remote="diasthiagoj"
+           remote="diasthiago11"
            revision="lineage-20.0" />
 
   <project path="hardware/motorola"
@@ -32,6 +32,6 @@
 
   <project path="vendor/motorola"
            name="proprietary_vendor_motorola"
-           remote="diasthiagoj"
+           remote="diasthiago11"
            revision="lineage-20.0" />  
 </manifest>
