@@ -8,27 +8,27 @@
   <project path="device/motorola/odessa"
            name="android_device_motorola_odessa"
            remote="Thiago"
-           revision="crdroid13" />
+           revision="crdroid-qpr3" />
            
   <project path="device/motorola/sm6150-common"
            name="android_device_motorola_sm6150-common"
            remote="Thiago"
-           revision="thirteen" />
+           revision="crdroid-qpr3" />
            
   <project path="kernel/motorola/sm6150"
-           name="android_kernel_motorola_sm6150"
+           name="kernel_motorola_liber"
            remote="Thiago"
            revision="lineage-20.0" />
 
   <project path="hardware/motorola"
            name="android_hardware_motorola"
            remote="LineageOS"
-           revision="lineage-20" />
+           revision="lineage-21" />
 
     <project path="system/qcom"
            name="android_system_qcom"
            remote="LineageOS"
-           revision="lineage-20" /> 
+           revision="lineage-21" /> 
 
   <project path="vendor/motorola"
            name="proprietary_vendor_motorola"
