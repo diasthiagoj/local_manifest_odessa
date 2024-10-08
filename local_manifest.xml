@@ -16,9 +16,9 @@
            revision="crdroid" />
            
   <project path="kernel/motorola/sm6150"
-           name="android_kernel_motorola_sm6150"
+           name="kernel_motorola_liber"
            remote="Thiago"
-           revision="testv8" />
+           revision="qpr3" />
 
   <project path="hardware/motorola"
            name="android_hardware_motorola"
