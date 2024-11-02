@@ -1,34 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Thiago" fetch="https://github.com/diasthiago11"/>
-  <remote name="BarryBlackCat" fetch="https://github.com/BarryBlackCat"/>
+  <remote name="Vitor" fetch="https://github.com/vullk4n"/>
   <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
   
 <!--Trees-->
   <project path="device/motorola/odessa"
            name="android_device_motorola_odessa"
            remote="Thiago"
-           revision="alphadroid-14" />
+           revision="rising" />
            
   <project path="device/motorola/sm6150-common"
-           name="android_device_motorola_sm6150-common"
+           name="android_device_motorola_sm6150-common14s"
            remote="Thiago"
-           revision="crdroid" />
+           revision="14" />
            
   <project path="kernel/motorola/sm6150"
-           name="kernel_motorola_liber"
+           name="android_kernel_motorola_sm6150"
            remote="Thiago"
-           revision="qpr3" />
+           revision="testv8" />
 
   <project path="hardware/motorola"
-           name="android_hardware_motorola"
-           remote="LineageOS"
-           revision="lineage-21" />
-
-    <project path="system/qcom"
-           name="android_system_qcom"
-           remote="LineageOS"
-           revision="lineage-21" /> 
+           name="hardware_motorola"
+           remote="Vitor"
+           revision="v-15.0" />
 
   <project path="vendor/motorola"
            name="proprietary_vendor_motorola"
