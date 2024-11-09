@@ -21,7 +21,7 @@
            revision="testv8" />
 
   <project path="vendor/motorola"
-           name="vendor_motorola"
+           name="proprietary_vendor_motorola"
            remote="Thiago"
-           revision="lineage-20.0" />  
+           revision="qpr3" />  
 </manifest>
