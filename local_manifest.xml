@@ -20,6 +20,11 @@
            remote="Thiago"
            revision="testv8" />
 
+  <project path="hardware/motorola"
+           name="hardware_motorola"
+           remote="Vitor"
+           revision="v-15.0" />
+
   <project path="vendor/motorola"
            name="proprietary_vendor_motorola"
            remote="Thiago"
