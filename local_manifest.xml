@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Thiago" fetch="https://github.com/diasthiago11"/>
-  <remote name="Vitor" fetch="https://github.com/vullk4n"/>
   <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
   
 <!--Trees-->
@@ -11,19 +10,24 @@
            revision="crdroid" />
            
   <project path="device/motorola/sm6150-common"
-           name="android_device_motorola_sm6150-common-14"
+           name="android_device_motorola_sm6150-common-pb"
            remote="Thiago"
-           revision="lineage-21" />
+           revision="unity" />
            
   <project path="kernel/motorola/sm6150"
-           name="android_kernel_motorola_sm6150"
+           name="android_kernel_motorola_sm6150-pb"
            remote="Thiago"
-           revision="testv8" />
+           revision="unity" />
 
   <project path="hardware/motorola"
-           name="hardware_motorola"
-           remote="Vitor"
-           revision="v-15.0" />
+           name="android_hardware_motorola"
+           remote="LineageOS"
+           revision="lineage-21" />
+
+  <project path="system/qcom"
+           name="android_system_qcom"
+           remote="LineageOS"
+           revision="lineage-21" />
 
   <project path="vendor/motorola"
            name="proprietary_vendor_motorola"
