@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="Thiago" fetch="https://github.com/diasthiago11"/>
+  <remote name="Thiago" fetch="https://github.com/thz11"/>
   <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
   
 <!--Trees-->
