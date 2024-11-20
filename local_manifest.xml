@@ -12,7 +12,7 @@
   <project path="device/motorola/sm6150-common"
            name="android_device_motorola_sm6150-common-cr"
            remote="Thiago"
-           revision="lineage-21" />
+           revision="15test" />
            
   <project path="kernel/motorola/sm6150"
            name="android_kernel_motorola_sm6150"
