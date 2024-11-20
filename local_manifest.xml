@@ -15,9 +15,9 @@
            revision="lineage-21" />
            
   <project path="kernel/motorola/sm6150"
-           name="android_kernel_motorola_sm6150-pb"
+           name="android_kernel_motorola_sm6150"
            remote="Thiago"
-           revision="unity" />
+           revision="testv8" />
 
   <project path="hardware/motorola"
            name="android_hardware_motorola"
