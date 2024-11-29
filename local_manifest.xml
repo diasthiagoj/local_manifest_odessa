@@ -15,9 +15,9 @@
            revision="15test" />
            
   <project path="kernel/motorola/sm6150"
-           name="android_kernel_motorola_sm6150"
+           name="android_kernel_motorola_hanoip"
            remote="Thiago"
-           revision="testv8" />
+           revision="fourteen" />
 
   <project path="hardware/motorola"
            name="android_hardware_motorola"
