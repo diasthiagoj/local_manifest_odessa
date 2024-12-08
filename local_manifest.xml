@@ -12,12 +12,12 @@
   <project path="device/motorola/sm6150-common"
            name="android_device_motorola_sm6150-common-cr"
            remote="Thiago"
-           revision="fourteen" />
+           revision="fourteen-rebase" />
            
   <project path="kernel/motorola/sm6150"
            name="kernel_motorola_illinois"
            remote="Thiago"
-           revision="fushiguro" />
+           revision="fushiguro-inline" />
 
   <project path="hardware/motorola"
            name="android_hardware_motorola"
