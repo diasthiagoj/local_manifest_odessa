@@ -7,7 +7,7 @@
   <project path="device/motorola/odessa"
            name="android_device_motorola_odessa"
            remote="Thiago"
-           revision="evoX" />
+           revision="crdroid" />
            
   <project path="device/motorola/sm6150-common"
            name="android_device_motorola_sm6150-common-cr"
@@ -17,7 +17,7 @@
   <project path="kernel/motorola/sm6150"
            name="kernel_motorola_illinois"
            remote="Thiago"
-           revision="wip_sm6150" />
+           revision="fushiguro" />
 
   <project path="hardware/motorola"
            name="android_hardware_motorola"
