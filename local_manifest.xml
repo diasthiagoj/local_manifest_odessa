@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Thiago" fetch="https://github.com/thz11"/>
+  <remote name="Thiago22" fetch="https://github.com/thz22"/>
   <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
   
 <!--Trees-->
   <project path="device/motorola/odessa"
            name="android_device_motorola_odessa"
            remote="Thiago"
-           revision="pixelstar" />
+           revision="crdroid" />
            
   <project path="device/motorola/sm6150-common"
            name="android_device_motorola_sm6150-common-cr"
@@ -15,9 +16,9 @@
            revision="fourteen-rebase" />
            
   <project path="kernel/motorola/sm6150"
-           name="kernel_motorola_illinois"
-           remote="Thiago"
-           revision="fushiguro-inline" />
+           name="kernel_motorola_liber"
+           remote="Thiago22"
+           revision="testksu" />
 
   <project path="hardware/motorola"
            name="android_hardware_motorola"
